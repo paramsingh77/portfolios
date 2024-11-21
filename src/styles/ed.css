@@ -1,0 +1,68 @@
+@media screen and (max-width: 430px) {
+    .logogo1{
+        width: 70%;
+      }
+
+      .dot-desc2{
+        background-color: aliceblue;
+      }
+      .work-3{
+        display: flex;
+      }
+
+      .logogo3{
+        width: 80%;
+      }
+      .work-place3{
+        color: white;
+      }
+
+      .make-circle3{
+        width: 50px;
+        height: 50px;
+        /* background-color: #8F97A3; */
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid #1F2937;
+      }
+      .date3{
+        font-size: 12px;
+      }
+
+      .role3{
+        font-size: 13px;
+      }
+
+      .points3{
+        font-size: 12px;
+        width: 100%;
+        list-style: circle;
+        text-align: left;
+
+      }
+      .points3 ul {
+        list-style: none; /* Remove default bullets */
+        padding: 0; /* Remove default padding */
+      }
+      .points3 li{
+        margin-top: 20px;
+      }
+      .points3 li.lis3 {
+        position: relative; /* Position relative for absolute positioning of the bullet */
+        padding-left: 20px; /* Space for the custom bullet */
+      }
+      
+      .points3 li.lis3::before {
+        content: ''; /* Empty content for the bullet */
+        position: absolute; /* Position it absolutely */
+        left: 0; /* Align to the left */
+        top: 50%; /* Center vertically */
+        transform: translateY(-50%); /* Adjust for vertical centering */
+        width: 5px; /* Width of the bullet */
+        height: 5px; /* Height of the bullet */
+        background-color:#8F97A3; /* Change to your desired color */
+        border-radius: 50%; /* Make it circular */
+      }
+}

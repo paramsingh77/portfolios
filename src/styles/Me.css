@@ -1,0 +1,118 @@
+@import url('https://fonts.cdnfonts.com/css/mangoli');
+.flex{
+    padding-top: 20px;
+    display: flex;
+    padding-left:40px;
+    /* justify-content: center; */
+}   
+
+.content{
+    width: 70%;
+    height: 300px;
+    /* background-color: aquamarine; */
+}
+
+.profilephoto{
+    width: 30%;
+    /* background-color: blueviolet; */
+    align-items: center;
+    height: 200px;
+    display: flex;
+    justify-content: center;   
+}
+
+.title{
+    font-size: 40px;
+    color: white;
+    font-family: 'Mangoli', sans-serif;
+    display: flex;
+    align-items: center;
+    height: 100px;
+}
+
+.profile{
+    object-fit: contain;
+    border-radius: 10%;
+    height: 130px;
+    width: 130px;
+    margin-top: 50%;
+}
+
+.Description{
+    color: whitesmoke;
+}
+
+.button-class{
+    margin-top: 30px;
+    height: 50px;
+}
+
+.buttond{
+    color:'white';
+    border: 0.2px solid #1F2937;
+    text-transform: capitalize;
+}   
+.flexf{
+    display: flex;
+    align-content: center;
+   
+}
+
+ul{
+    list-style: none;
+    text-decoration: none;
+}
+
+.height-100{
+    height: 50px;
+    align-content: center;
+}
+
+.flex9{
+    display: flex;
+}
+
+a{
+    text-decoration: none;
+    color: #6C727E;
+
+}
+a:hover{
+    text-decoration: none;
+    color: #84868b;
+
+}
+
+.height-100{
+    color: white;
+}
+
+.butttons{
+    width: 100px;
+    height: 30px;
+    display: flex;
+    gap: 10px;
+    border: 0.2px solid #1F2937;
+    justify-content: center;
+    align-items: center;
+    padding: 2px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 430px) {
+    .title{
+        font-size: 30px;
+    }
+    .content{
+        font-size: 14px;
+    }
+    .Description{
+        text-wrap: wrap;
+        width: 75%;
+    }
+    .flex9{
+        height: 24px;
+        overflow: hidden;
+    }
+}
